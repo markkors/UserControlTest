@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfTutorialSamples.User_Controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorialSamples.User_Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <local:UserControl1 Title="Enter name:"
+                                MaxLength="30"
+                                Height="50" />
+            <local:UserControl1 Title="Enter title:"
+                                MaxLength="30"
+                                Height="50" />
+        </StackPanel>
+        
+    </Grid>
+</Window>
